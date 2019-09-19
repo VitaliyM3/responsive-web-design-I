@@ -95,7 +95,7 @@ h1 {
 	width: 380px;
 }
 
-.top-container .lineup .get-started-button a {
+.top-container .lineup_1 .get-started-button a {
 	text-decoration: none;
 	color: black;
 }
@@ -271,6 +271,11 @@ h2 {
 
 @media(max-width: 800px) {
 
+    * {
+        margin:10px;
+    
+    }
+
     .navigation {
         text-align: center;
         display: flex;
@@ -279,10 +284,9 @@ h2 {
         margin: auto;
     }
 
-    nav {
-        width: 800px;
-        margin: 30px;
-        padding: 10px; 
+    .logo {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .lineup_2 {
@@ -294,12 +298,32 @@ h2 {
         display:flex;
         justify-content: center;
         width: 100%;
+        margin-top: 20px;
     }
 
     hr {
         width: 100%;
     }
 
-    
+    .mid-section {
+        justify-content: center;  
+    }
+
+    .middle-img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .lowerpart {
+        margin:10px;
+    }
+
+    .copyright {
+        display:flex;
+        justify-content: center;
+        max-width: 800px;
+    }
 }
+
 
