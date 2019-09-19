@@ -1,3 +1,179 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+
+.navigation {
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px; 
+}
+
+nav a {
+	margin:10px;
+	text-decoration: none;
+	color:gray;
+	padding: 0px 20px;
+}
+
+.top-container{
+	padding-top: 20px;
+	padding-bottom: 35px;
+	width: 950px;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	font-size: 70px;
+	margin-left: 25px;
+	width: 380px;
+}
+
+.top-container .lineup .get-started-button a {
+	text-decoration: none;
+	color: black;
+}
+
+.get-started-button {
+	border:1px solid black;
+	margin: auto;
+	width: 150px;
+	height: 25px;
+	padding: 10px 10px;
+	padding-bottom: 27px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+hr {
+	width: 865px;
+}
+
+.lineup {
+	margin: auto;
+	padding: 10px 10px;
+	text-align: center;
+	width: 380px;
+}
+
+.top-container .lineup {
+	display: inline-block;
+	width: 48%;
+	vertical-align: middle;
+}
+
+.middle-upper {
+	margin: 1%;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.middle-upper .content_1 {
+	display: inline-block;
+	margin: 1%;
+	width: 430px;
+	text-align: left;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.middle-lower {
+	margin: 1%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.middle-lower .content_2 {
+	display: inline-block;
+	margin: 1%;
+	width: 280px;
+	text-align: left;
+}
+
+.lowerpart {
+	width: 865px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+.copyright {
+	padding-top: 75px;
+	text-align: center;
+	padding-bottom: 90px;
+}
 
