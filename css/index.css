@@ -1,5 +1,3 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,16 +58,16 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
 .navigation {
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 nav {
-	display: inline-block;
 	margin: 10px;
 	padding: 10px; 
 }
@@ -82,9 +80,11 @@ nav a {
 }
 
 .top-container{
+	display: flex;
+	justify-content: center;
 	padding-top: 20px;
 	padding-bottom: 35px;
-	width: 950px;
+	width: 960px;
 	text-align: center;
 	margin: auto;
 }
@@ -102,33 +102,35 @@ h1 {
 
 .get-started-button {
 	border:1px solid black;
-	margin: auto;
 	width: 150px;
 	height: 25px;
 	padding: 10px 10px;
 	padding-bottom: 27px;
 	text-align: center;
-	vertical-align: middle;
+	margin-left: 140px;
 }
 
 hr {
 	width: 865px;
 }
 
-.lineup {
+.lineup 1 {
 	margin: auto;
 	padding: 10px 10px;
 	text-align: center;
 	width: 380px;
 }
 
-.top-container .lineup {
-	display: inline-block;
-	width: 48%;
-	vertical-align: middle;
+.lineup 2 {
+	margin: auto;
+	padding: 10px 10px;
+	text-align: center;
+	width: 380px;
 }
 
 .middle-upper {
+	display: flex;
+	justify-content: center;
 	margin: 1%;
 	width: 100%;
 	text-align: center;
@@ -137,7 +139,6 @@ hr {
 }
 
 .middle-upper .content_1 {
-	display: inline-block;
 	margin: 1%;
 	width: 430px;
 	text-align: left;
@@ -152,6 +153,8 @@ hr {
 }
 
 .middle-lower {
+	display: flex;
+	justify-content: center;
 	margin: 1%;
 	width: 100%;
 	text-align: center;
@@ -159,7 +162,6 @@ hr {
 }
 
 .middle-lower .content_2 {
-	display: inline-block;
 	margin: 1%;
 	width: 280px;
 	text-align: left;
@@ -175,5 +177,129 @@ hr {
 	padding-top: 75px;
 	text-align: center;
 	padding-bottom: 90px;
+}
+
+.navigation-services-page {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.top-image {
+	text-align: center;
+}
+
+.services {
+	width: 880px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.middle-content {
+	padding-top: 20px;
+	width: 880px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-around;
+	align-content: space-between;
+	align-content: space-around;
+	padding-bottom: 20px;
+
+}
+
+.mid-boxs {
+	border: 1px solid black;
+	padding: 20px;
+	width: 400px;
+	height: 240px;
+	margin: 20px;
+	background-color:#F5F5F5;
+}
+
+.mid-boxs .learn-more-button a {
+	text-decoration: none;
+	color: black;
+}
+
+.learn-more-button {
+	border: 1px solid black;
+	width: 150px;
+	height:30px;
+	border-radius: 5px;
+	padding: 5px 30px 5px 30px;
+	text-align: center;
+	background-color: white;
+	margin: 30px 70px 10px 10px;
+}
+
+.bottom-container{
+	display: flex;
+	padding-top: 30px;
+	width: 850px;
+	margin: auto;
+}
+
+.section_lower {
+	width: 440px;
+}
+
+.left-side-content {
+	width: 420px;
+	padding-right: 22px;
+}
+
+.bullets {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.bullets .list {
+	list-style-type:disc;
+}
+
+.copyright {
+	margin-top: 40px;
+}
+
+@media(max-width: 800px) {
+
+    .navigation {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin: auto;
+    }
+
+    nav {
+        width: 800px;
+        margin: 30px;
+        padding: 10px; 
+    }
+
+    .lineup_2 {
+        display: none;
+    }
+
+
+    .top-container {
+        display:flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    
 }
 
